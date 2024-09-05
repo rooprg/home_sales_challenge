@@ -62,11 +62,15 @@ There do not appear to be any sensitivities within the dataset. The information 
 
 **(7) Instructions for Interacting with the Project:**
 
-Due to issues with Hadoop software on the local machine, the code used for this exercise is configured to run in Colab. It is stored in a file titled " " within the main folder.
+Due to issues with Hadoop software on the local machine, the code used for this exercise is configured to run in Colab. It is stored in a file titled "home_sales_starter_code_colab_roop.ipynb" within the main folder.
 
 
+Query results are filed as .png files in the **Output** folder.
+
+
+The dataset is available in the main folder as "home_sales_revised.csv". It is also available online at the web address noted in Section 2 above.
 
 **(8) Citations:**
 
-
+Questions were asked of Xpert Learning Assistant, namely syntax errors and parquet functionality and partitioning.
 (Include references to the data sources used, any external libraries or tools utilized, and any other resources that contributed to the project)
