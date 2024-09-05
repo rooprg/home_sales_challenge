@@ -4,19 +4,19 @@
 **(1) Project Overview and Purpose:**
 
 
-(Provide a brief introduction to the project, explaining its purpose and what the project aims to achieve)
+The purpose of this exercise is to use SparkSQL to determine key metrics about home sales data, using temporary views, caching, and partitioning to evaluate query processing times.
 
 
 **(2) Dataset Description:**
 
 
-(Describe the dataset used in the project, including the source of the data, the number of records, and any relevant information about the data)
+The dataset used for this exercise is located here: https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv. It contains property level information, including identification; date; date built; price; number of bedrooms; number of bathrooms; square footage of living space; square footage of the property lot; number of floors; waterfront view; and number of views.
 
 
 **(3) Data Cleaning and Preprocessing:**
 
 
-(Explain the steps taken to clean and preprocess the data before visualization. This could include handling missing values, removing duplicates, and transforming data)
+No cleaning of the data was performed for this exercise. There was no missing data to be removed; no conversions to be undertaken; etc.
 
 
 **(4) Data Visualization Techniques:**
@@ -28,7 +28,19 @@
 **(5) Results and Analysis:**
 
 
-(Present the insights gained from the data visualization. Describe any patterns, trends, or relationships discovered in the data)
+The following questions were answered during the course of this exercise-
+
+
+(a) What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+
+
+(b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
+
+
+(c) What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+
+
+(d) What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
 
 **(6) Ethical Considerations:**
