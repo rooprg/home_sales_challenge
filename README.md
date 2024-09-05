@@ -63,7 +63,7 @@ There do not appear to be any sensitivities within the dataset. The information 
 **(7) Instructions for Interacting with the Project:**
 
 
-Due to issues with Hadoop software on the local machine, the code used for this exercise is configured to run in Colab. It is stored in a file titled "home_sales_starter_code_colab_roop.ipynb" within the main folder.
+Due to issues with Hadoop software on the local machine, the code used for this exercise is configured to run in Colab. It is stored in a file titled "home_sales_colab_roop.ipynb" within the main folder.
 
 
 Query results are filed as .png files in the **Output** folder.
