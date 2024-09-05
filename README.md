@@ -22,7 +22,9 @@ No cleaning of the data was performed for this exercise. There was no missing da
 **(4) Data Visualization Techniques:**
 
 
-(Detail the data visualization techniques used in the project, such as bar charts, line graphs, scatter plots, etc. Explain why these techniques were chosen and how they help in understanding the data)
+No bar charts; graphs; or other visualizations were generated for this exercise.
+
+Code resulted in query responses, which were added to the **Output** folder.
 
 
 **(5) Results and Analysis:**
@@ -31,31 +33,37 @@ No cleaning of the data was performed for this exercise. There was no missing da
 The following questions were answered during the course of this exercise-
 
 
-(a) What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
+(a) What is the average price for a four-bedroom house sold for each year?
 
 ![Question a](Output/1_ap_4.png)
 
-(b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
+(b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms?
 
 ![Question b](Output/2_ap_3_3.png)
 
-(c) What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
+(c) What is the average price of a home for each year the home was built, that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet?
 
 ![Question c](Output/3_ap_3_3_2_2000.png)
 
-(d) What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
+(d) What is the average price of a home per "view" rating having an average home price greater than or equal to $350,000?
+
+![Question d](Output/4_view_350000.png)
+
+
+SQL query processing times for the query associated with answering question (d) were measured after caching and partitioning. Per the .ipynb file, the initial query was processed in 0.7485756874084473 seconds. After caching, the query was processed in 1.3996186256408691 seconds. After partitioning, the query originally ran in approximately 1.64 seconds, but running it a second time brought the processing time down to 1.2518165111541748 seconds, which is consistent with retrieving the data from memory rather than reprocessing it from scratch.
+
 
 
 **(6) Ethical Considerations:**
 
 
-(Discuss any ethical considerations taken into account during the project, such as data privacy, bias, or fairness)
+There do not appear to be any sensitivities within the dataset. The information may be available via other resources, including online resources. There should not be any germane ethical considerations.
 
 
 **(7) Instructions for Interacting with the Project:**
 
+Due to issues with Hadoop software on the local machine, the code used for this exercise is configured to run in Colab. It is stored in a file titled " " within the main folder.
 
-(Provide clear instructions on how to interact with the visualizations, such as how to run the code or access the visualizations)
 
 
 **(8) Citations:**
