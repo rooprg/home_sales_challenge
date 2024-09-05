@@ -33,6 +33,7 @@ The following questions were answered during the course of this exercise-
 
 (a) What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
 
+![Question a](Output/1_ap_4.png)
 
 (b) What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 
